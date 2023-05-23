@@ -1,79 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/desktop.css" media="(min-width: 730px)">
-  <title> Gusto</title>
-  <script src="https://kit.fontawesome.com/d99aa2c34c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link 
+    rel="stylesheet" 
+    href="/css/desktop.css"
+    media="(min-width: 730px)">
+    <title>El Buen Gusto</title>
+    <script src="https://kit.fontawesome.com/d99aa2c34c.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <div class="page">
+    <div class="page">
     <section class="container">
-      <nav class="navbar">
+    <nav class="navbar">
         <div class="navbar__content">
-          <span class="icon"><i class="fab fa-bimobject"></i></span>
-          <span class="icon icon__bars"><i class="fas fa-bars"></i></span>
-          <ul>
-            <li><a href=""></a>Ofertas</li>
-            <li><a href=""></a>Ofertas</li>
-            <li><a href=""></a>Hierbas</li>
-            <li><a href=""></a>Recetas</li>
-          </ul>
+            <span class="icon"><i class="fab fa-bimobject"></i></span>
+            <span class="icon icon__bars" ><i class="fas fa-bars"></i></span>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 active" aria-current="page"  href="registro.html"> Registro</a>
+                </li>
+                <li><a href=""></a>Ofertas</li>
+                <li><a href=""></a>Hierbas</li>
+                <li><a href=""></a>Recetas</li>
+            </ul>
         </div>
-      </nav>
-      <section class="aside__content">
+    </nav>
+
+    <section class="aside__content">
         <img class="uva" src="/assets/img/uva.svg" alt="">
         <div class="background__aside">
-          <p class="text text__one">EL</p>
-          <p class="text text__two">BUEN</p>
-          <p class="text text__three">GUSTO</p>
+            <p class="text text__one">EL</p>
+            <p class="text text__two">BUEN</p>
+            <p class="text text__three">GUSTO</p>
         </div>
-      </section>
-
-      <section class="main__content">
-        <h1>Super order eat healthy!</h1>
-        <p class="parragraph__spacing"> Hola soy Melisa
-          "Alimenta tu cuerpo, nutre tu mente come saludable".</p>
-        <p>Soy una iniciativa del Buen Gusto y estoy aqui para hacerte la vida un poco mas sencilla</p>
-      </section>
-
-      <section class="footer__content">
-
-        <div class="position__img">
-          <img class="plates" src="/assets/img/plato.svg" alt="">
-          <img id="button__one" class="products fruits" src="/assets/img/fruits.svg" alt="fruits">
-        </div>
-
-
-
-        <div class="position__img">
-          <img class="plates" src="/assets/img/plato.svg" alt="">
-          <img id="button__two" class="products vegetables" src="/assets/img/vegetables.svg" alt="vegetables">
-        </div>
-
-
-        <div class="position__img">
-          <img class="plates" src="/assets/img/plato.svg" alt="">
-          <img id="button__three" class="products hierbas" src="/assets/img/hierbas.svg" alt="Hierbas">
-        </div>
-
-      </section>
     </section>
+
+    <section class="main__content">
+        <p>Crea tu</p>
+        <h1>Super Pedido!</h1>
+        <p class="parragraph__spacing">  Hola soy Melisa
+            el bot de FyV el Buen Gusto.</p>
+        <p>Soy una iniciativa del Buen Gusto y estoy aqui para hacerte la vida un poco mas sencilla</p>
+    </section>
+
+    
+    
+    <section class="footer__content">
+ 
+        <div class="position__img">
+            <img class="plates" src="/assets/img/plato.svg" alt="">
+            <img id="button__one" class="products fruits" src="/assets/img/fruits.svg" alt="fruits">
+        </div>
+
+
+   
+        <div class="position__img">
+            <img class="plates" src="/assets/img/plato.svg" alt="">
+            <img id="button__two" class="products vegetables" src="/assets/img/vegetables.svg" alt="vegetables">
+        </div>
+  
+
+        <div class="position__img">
+            <img class="plates" src="/assets/img/plato.svg" alt="">
+            <img id="button__three" class="products hierbas" src="/assets/img/hierbas.svg" alt="Hierbas">
+        </div>
+  
+    </section>
+</section>
 
     <!-- Loader -->
     <section class="loader">
-      <div></div>
-      <div></div>
-      <div></div>
+       <div></div>
+       <div></div>
+       <div></div>
+    </section>
+   
+
+    <!-- Modal -->
+    <section class="modal__one hidden ">
+        <div class="modal__content">
+            <i class="modal__content--close fas fa-times"></i>
+            
+            <div class="modal__content--slider">
+                <input type="radio" name="slider-1" id="radio-1" checked>
+                <input type="radio" name="slider-1" id="radio-2">
+                <input type="radio" name="slider-1" id="radio-3">
+                
+                <div class="cards">
+                    <label for="radio-1" id="card-1" class="card">
+                        <img class="card__fruits mangostinos" src="/assets/img/mangostinos.svg" alt="mangostinos">
+                    </label>
+                    
+                    <label for="radio-2" id="card-2" class="card">
+                        <img class="card__fruits tangelo" src="/assets/img/tangelo.svg" alt="tangelo">
+                    </label>
+                    <label for="radio-3" id="card-3" class="card">
+                        <img class="card__fruits piña" src="/assets/img/piña.svg" alt="piña">
+                    </label>
+                </div>
+              
+            </div>
+            <a class="modal__button">Me lo llevo</a>
+        </div>
     </section>
 
+    <section class="modal__two hidden ">
+        <div class="modal__content">
+            <i class="modal__content--close2 fas fa-times"></i>
+            
+            <div class="modal__content--slider">
+                <input type="radio" name="slider-2" id="radio__two-1" checked>
+                <input type="radio" name="slider-2" id="radio__two-2">
+                <input type="radio" name="slider-2" id="radio__two-3">
+                
+                <div class="cards">
+                    <label for="radio__two-1" id="card__two-1" class="card">
+                        <img class="card__fruits pimenton" src="/assets/img/pimenton.svg" alt="pimenton">
+                    </label>
+                    
+                    <label for="radio__two-2" id="card__two-2" class="card">
+                        <img class="card__fruits tomate" src="/assets/img/tomate.svg" alt="tomate">
+                    </label>
+                    <label for="radio__two-3" id="card__two-3" class="card">
+                        <img class="card__fruits brocoli" src="/assets/img/Brocoli.svg" alt="brocoli">
+                    </label>
+                </div>
+              
+            </div>
+            <a class="modal__button">Me lo llevo</a>
+        </div>
+    </section>
 
-  </div>
+    <section class="modal__three hidden ">
+        <div class="modal__content">
+            <i class="modal__content--close3 fas fa-times"></i>
+            
+            <div class="modal__content--slider">
+                <input type="radio" name="slider-3" id="radio__three-1" checked>
+                <input type="radio" name="slider-3" id="radio__three-2">
+                <input type="radio" name="slider-3" id="radio__three-3">
+                
+                <div class="cards">
+                    <label for="radio__three-1" id="card__three-1" class="card">
+                        <img class="card__fruits perejil" src="/assets/img/perejil.svg" alt="perejil">
+                    </label>
+                    
+                    <label for="radio__three-2" id="card__three-2" class="card">
+                        <img class="card__fruits tomillo" src="/assets/img/tomillo.svg" alt="tomillo">
+                    </label>
+                    <label for="radio__three-3" id="card__three-3" class="card">
+                        <img class="card__fruits ruvolla" src="/assets/img/ruvolla.svg" alt="ruvolla">
+                    </label>
+                </div>
+                <!-- Registrarse -->
+            <div id="registrarse">
+                <h1>Registrarse</h1>
+                <form action="#" method="post">
+                    <div class="fila-arriba">
+                        <div class="contenedor-input">
+                            <label>
+                                Nombre <span class="req">*</span>
+                            </label>
+                            <input type="text" required >
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label>
+                                Apellido <span class="req">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                            <label>
+                                Email <span class="req">*</span>
+                            </label>
+                        <input type="email" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Repetir Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+
+                    <input type="submit" class="button button-block" value="Registrarse">
+                </form>
+            </div>
+        </div>
+        
+            </div>
+            <a class="modal__button">Me lo llevo</a>
+        </div>
+    </section>
+</div>
+
+<script src="/JS/main.js"></script>
 </body>
-
 </html>
