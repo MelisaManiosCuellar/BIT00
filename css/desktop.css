@@ -1,6 +1,6 @@
 
-@import url(css/modal.css);
-@import "{{ site.theme }}";
+@import url(modal.css);
+
 body {
     overflow: hidden;
 }
